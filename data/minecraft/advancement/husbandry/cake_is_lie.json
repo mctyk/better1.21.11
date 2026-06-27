@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake_is_lie"
+    },
+    "title": "蛋糕是个谎言",
+    "description": "做一个蛋糕",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dropped_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/plant_seed"
+}
