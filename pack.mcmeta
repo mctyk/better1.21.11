@@ -1,7 +1,9 @@
 {
   "pack":
   {
-    "description": "添加了一些新的进度和被删除的成就，和一些其他功能QWQ ",
-    "pack_format": 75
+    "description": "添加了一些新的或被删除的进度（成就）和配方，和一些其他功能",
+    "pack_format": 94.1,
+    "min_format": 71,
+    "max_format": 107.1
   }
 }
