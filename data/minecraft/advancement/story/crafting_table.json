@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:cake"
+      "id": "minecraft:crafting_table"
     },
-    "title": "蛋糕是个谎言",
-    "description": "做一个蛋糕",
+    "title": "这是......工作台？",
+    "description": "制作一个工作台",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -16,11 +16,11 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cake"
+            "items": "minecraft:crafting_table"
           }
         ]
       }
     }
   },
-  "parent": "minecraft:husbandry/plant_seed"
+  "parent": "minecraft:story/root"
 }
